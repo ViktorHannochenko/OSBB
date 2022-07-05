@@ -1,0 +1,25 @@
+.title {
+    color: #000000;
+    &_fz24 {
+        font-weight: 700;
+        font-size: 24px;
+    }  
+    &_fz36 {
+        font-weight: 400;
+        font-size: 36px;
+    }
+    &_fz48 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 48px;
+    }
+    &_fz50 {
+        font-weight: 400;
+        font-size: 50px;
+    }
+    &_fz96 {
+        font-style: italic;
+        font-weight: 700;
+        font-size: 96px;
+    }
+}
