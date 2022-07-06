@@ -1,0 +1,112 @@
+@media (max-width: 1367px) {}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .promo {
+        &__title {
+            font-size: 80px;
+            padding-left: 90px;
+        }
+
+        &__subtitle {
+            padding-left: 300px;
+        }
+
+        &__btns {
+            margin-top: 20px;
+            margin-left: 420px;
+            width: 350px;
+        }
+    }
+
+    .about {
+        padding-top: 20px;
+
+        &__title {
+            font-size: 32px;
+        }
+
+        &__descr {
+            font-size: 16px;
+        }
+
+        &__subtitle {
+            padding-top: 30px;
+        }
+
+        &__items {
+            grid-template: repeat(2, minmax(230px, auto)) / repeat(2, 270px);
+            gap: 20px;
+        }
+    }
+
+    .board {
+        padding-top: 20px;
+
+        &__wrapper {
+            grid-template: repeat(2, 0.5fr) / repeat(1, 700px);
+            gap: 20px;
+        }
+    }
+
+    .documents {
+        &__title {
+            font-size: 40px;
+        }
+
+        &__tab {
+            margin: 0 15px;
+        }
+
+        &__content {
+            margin-top: 20px;
+        }
+    }
+
+    .contacts {
+        &__wrapper {
+            grid-template: repeat(2, 1fr) / repeat(1, 600px);
+            justify-content: center;
+            gap: 20px;
+        }
+        &__contact {
+            grid-template-columns: 40px 550px;
+        }
+        &__input,
+        &__textarea {
+            input {
+                width: 100%;
+            }
+
+            textarea {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+}
