@@ -16,19 +16,17 @@
             grid-column: 1 / 2;
         }
     }
+    &__wrap {
+        display: grid;
+        grid-template-columns: 65px 1fr;
+    }
     &__item {
-        position: relative;
         border: 1px solid black;
         padding: 25px;
         border-radius: 20px;
         background-color: #DEDCDC;
         .red {
             color: #E5664A;  
-        }
-        &-img {
-            position: absolute;
-            top: 20px;
-            left: 20px;
         }
         &-title {
             font-weight: 700;

@@ -43,10 +43,12 @@
     &__content {
         margin-top: 60px;
         display: none;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        &_active {
-            display: flex;
+        grid-template: repeat(1, minmax(350px, auto)) / repeat(3, 350px);
+        grid-auto-rows: minmax(350px, auto);
+        gap: 40px;
+        justify-content: center;
+                &_active {
+            display: grid;
         }
     }
     &-item {
@@ -59,7 +61,6 @@
         border-radius: 20px;
         background-color: #DEDCDC;
         overflow: hidden;
-        margin-bottom: 20px;
         &__img {
             display: block;
             margin: 0 auto;

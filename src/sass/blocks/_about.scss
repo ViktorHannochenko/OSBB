@@ -27,11 +27,10 @@
 
     &__items {
         margin-top: 15px;
-        padding: 0 28px;
         display: grid;
         grid-template: repeat(1, minmax(230px, auto)) / repeat(4, 270px);
         grid-auto-rows: minmax(270px, auto);
-        gap: 25px;
+        gap: 30px;
         justify-content: center;
     }
 

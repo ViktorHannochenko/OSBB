@@ -39,12 +39,10 @@
 
     &__map {
         padding: 10px;
-
         iframe {
             width: 100%;
             height: 330px;
             border: none;
-            border: radius 20px;
         }
     }
 
@@ -93,6 +91,7 @@
             height: 220px;
             width: 500px;
             outline: none;
+            resize: none;
         }
     }
 
