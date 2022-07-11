@@ -5,9 +5,11 @@
     padding-top: 30px;
     &__title {
         padding-left: 125px;
+        padding-top: 20px;
     }
     &__subtitle {
         padding-left: 342px;
+        line-height: 50px;
     }
     &__btns {
         margin-top: 30px;
@@ -16,6 +18,7 @@
         align-items: center;
         justify-content: space-between;
         width: 390px;
+        padding-bottom: 20px;
     }
     &__link {
         color:#000;
@@ -28,6 +31,7 @@
         }
     }
     img {
-        padding: 10px 0 0 10px;
+
+        padding: 5px 0 0 5px;
     }
 }
